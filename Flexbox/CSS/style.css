@@ -1,0 +1,120 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap'); */
+
+body{
+    background-color: #93d9e9;
+}
+
+/* header{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+header{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    font-family: 'Baloo 2', cursive;
+}
+
+nav{
+    flex-basis: 45%;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+} */
+
+
+.idioma{
+    display: flex;
+    flex-basis: 10%;
+    justify-content: space-around;
+}
+.idioma a{
+    font-size: 15px;
+    width: 45px;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    color: white;
+    background-color: rgb(83, 83, 83);
+}
+
+section{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2, p{
+    text-align: center;
+    margin: 0;
+}
+
+article{
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+    margin: 50px 0;
+    height: 550px;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;    
+    box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.274);
+}
+h2{
+    margin: 0;
+    background-color: salmon;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+    font-size: 25px;
+}
+.contenido{
+    display:flex;
+    flex-direction: column;
+    margin: 20px;
+    height: 400px;
+    
+}
+p{
+    display: flex;
+    height: 80px;
+    padding: 0;
+    margin: 0;
+    align-items: flex-end;
+    font-size: 18px;
+    padding-bottom: 5px;
+    justify-content: center;
+    border-bottom:solid 1px rgb(211, 211, 211);
+}
+.Comprar{
+    height: 400px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+a{
+    border-radius: 8px;
+    padding: 12px 20px;
+    color: black;
+    background-color: rgb(231, 231, 231);
+    text-decoration: none;
+}
+
+

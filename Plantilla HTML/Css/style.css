@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    width: 100%;
+
+}
+nav{
+    background-color: blue;
+    width: 100%;
+    height: 110px;
+    float: left;
+    padding: 0;
+
+}
+img{
+    margin: 18px 0;
+    float:left;
+    width: 75px;
+    margin-left: 190px;
+}
+ul{
+    float: right;
+    margin: 25px 0;
+    width: 52%;
+}
+li{
+    border-radius: 5px;
+    float: left;
+    width: 150px;
+    height: 55px;
+    margin:0px 12px;
+    list-style: none;    
+    background-color: aqua;     
+}
+.diferente{
+    background-color: rgb(50, 204, 145);
+}
+
+.contenido{
+    margin: 0 190px;
+}
+header{
+    border-radius: 3px;
+    margin: 20px 0;
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+}
+
+section{
+    float: left;
+    width:60%;
+    height: 280px;
+    margin-right: 16px;
+}
+article{
+    border-radius: 3px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 16px;
+    background-color: rgb(100, 159, 237);
+}
+aside{
+    border-radius: 3px;
+    float: right;
+    width: 38%;
+    height:300px;
+    background-color: rgb(204, 36, 78);
+    margin-bottom: 20px;
+}
+
+footer{
+    float: left;
+    width: 100%;
+    height: 101px;
+    background-color: darkblue;
+}
+
+
+clear{
+    clear: both;
+}
