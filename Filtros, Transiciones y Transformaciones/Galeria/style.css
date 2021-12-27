@@ -1,0 +1,80 @@
+body{
+    background-color: #1c1321;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.galeria{
+
+    padding: 0;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+li{
+    list-style: none;
+    margin: 5px ;  
+    position: relative;
+}
+img{
+    border-radius: 5px;
+    width: 280px;
+    height: 150px;
+    transition: .5s;
+}
+.texto{
+    position: static;
+    text-align: center;
+    background-color: white;
+    font-family:monospace;
+    font-size: 13px;
+    border-radius: 3px;
+    padding: 2px;
+    margin-bottom: 5px;
+}
+
+/*--------------------------[ Transiciones ]--------------------------*/
+
+/* transition:[propiedad a modificar] [Duración] [Tipo de animación] [Retardo];  */
+
+
+/*----------------------[ Aplicar filtros a las imágenes con CSS ]----------------------*/
+
+.desenfoque:hover{
+    filter: blur(5px);
+}
+.escala_de_grises:hover{
+    filter: grayscale(100%);  /* 0 a 100% */
+}
+.sepia:hover{
+    filter: sepia(100%);
+}
+.rotación_de_tono:hover{
+/*  El valor del ángulo define el número de grados al rededor del círculo de colores
+    El efecto de valores encima de 360deg da la vuelta al círculo de colores  */
+    filter: hue-rotate(250deg);
+}
+.transparencia:hover{
+    /*1 es totalmente opaco(valor por defecto) y 0 es totalmente transparente.*/
+    filter: opacity(.5);
+}
+.brillo:hover{
+    /* Un valor de 100% no producirá ningún cambio */
+    filter: brightness(2);
+}
+.contraste:hover{
+    filter: contrast(2);
+}
+.saturacion:hover{
+    /*Saturación original: 100%.
+    Los valores por encima conseguirán una imagen sobresaturada*/
+    filter: saturate(250%); 
+}
+
+/*---------------[ Combinando funciones ]---------------*/
+/* filter: contrast(175%) brightness(3%) */
+
+
+

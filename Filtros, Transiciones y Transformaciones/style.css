@@ -1,0 +1,34 @@
+body{
+    background: #1c1321;
+    width: 1280px;
+    margin: 0;
+}
+.imagen{
+    height: 100vh;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+}
+img{
+    width: 300px;
+    border-radius: 50%;
+    transition: width 3s,background-color 0.5s;
+}
+
+img:hover{
+    width: 350px;
+    background-color: yellow;
+    box-shadow: 0px 0px 100px yellow;
+}
+
+/* 
+transition: all(se pueden modificar todas las propiedades) 2s;
+//----------------[ Velocidad de transiciones ]----------------// 
+
+TIPO DE TRANSICIONES
+● linear: la velocidad de la animación es uniforme en todo el recorrido.
+● ease: la velocidad se acelera al inicio, luego se retarda un poco y se acelera al final  de nuevo.
+● ease-in: la animación empieza lentamente y va aumentando progresivamente.
+● ease-out: la animación empieza muy rápida y va descendiendo progresivamente.
+● ease-in-out: la animación empieza y acaba lentamente, y es en la parte central del recorrido donde la velocidad es más rápida.
+*/

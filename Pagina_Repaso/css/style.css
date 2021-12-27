@@ -6,22 +6,34 @@ body {
 /*--------------[nav]*/
 nav{
     display: flex;
+    height: 65px;
     justify-content: space-around;
     align-items: center;
     background-color: #1e172f;
 }
 nav ul{
     display: flex;
-    flex-basis: 300px;
+    flex-basis: 400px;
     justify-content: space-between;
 }
 ul{
     list-style: none;
+    align-items: center;
     padding: 0;
 }
 a{
     text-decoration: none;
     color: white;
+}
+nav ul button{
+    margin: 0;
+    border:none;
+    width: 130px;
+    height: 40px;
+    color: white;
+    font-size: 15px;
+    border-radius: 3px;
+    background: linear-gradient(90deg, purple, blue);
 }
 
 /*--------------[Cabeza]*/
@@ -195,9 +207,26 @@ h4::before{
     margin: -10px 0 0 5px;
 }
 /* LISTA */
+
+.cuadro ul{
+    list-style: url(/img/WhatsApp\ Image\ 2021-08-04\ at\ 7.25.49\ AM.jpeg);
+    width: 200px;
+}
+.cuadro ul li:first-child{
+    list-style: url(/img/WhatsApp\ Image\ 2021-08-04\ at\ 7.25.59\ AM.jpeg);
+}
+.cuadro ul li:last-child{
+    list-style: url(/img/WhatsApp\ Image\ 2021-08-04\ at\ 7.25.50\ AM.jpeg);
+}
+.cuadro ul li::before{
+    color: khaki;
+}
 .cuadro ul li{
+    background: #fff url("icon-rssfeed.gif") 0 3px no-repeat;
+    
     margin: 10px;
 }
+
 
 /* PARRAFO */
 .cuadro p{
@@ -218,8 +247,8 @@ h4::before{
     width: 170px;
     height: 48px;
     font-size: 17px;
-    border-radius: 3px;
-    background-color: #f41a88;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgb(218, 87, 174), rgb(221, 0, 129));
     color: white;
 }
 
